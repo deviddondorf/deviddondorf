@@ -13,6 +13,11 @@
     font-family: Jupiter-Regular;
 }
 
+.body {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
 #HomeOption {
     padding-left: 50px;
 }
