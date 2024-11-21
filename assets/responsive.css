@@ -19,6 +19,10 @@
 }
 
 #IntroBox {
+    background-image: url(../assets/Img/image.png);
+    background-position: center;
+    background-size: cover;
+    align-self: center;
     font-size: large;
     font-family: Jupiter-Regular;
 }
