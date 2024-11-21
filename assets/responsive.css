@@ -29,6 +29,10 @@
     color: black;
     text-decoration: none;
 }
+#HomeOption:active {
+    color: rgb(136, 255, 0);
+    text-decoration: none;
+}
 
 #cVoption {
     padding-left: 75px;
@@ -46,7 +50,10 @@
     color: black;
     text-decoration: none;
 }
-
+#cVoption:active {
+    color: rgb(136, 255, 0);
+    text-decoration: none;
+}
 
 .body {
     padding-top: 25px;
