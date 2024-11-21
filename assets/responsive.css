@@ -25,7 +25,7 @@
     color: darkgrey;
     text-decoration: none;
 }
-#visited {
+#HomeOption:visited {
     color: black;
     text-decoration: none;
 }
@@ -34,7 +34,18 @@
     padding-left: 75px;
     transform: translate(200px, 0px);
 }
-
+#cVoption:link {
+    color: black;
+    text-decoration: none;
+}
+#cVoption:hover {
+    color: darkgrey;
+    text-decoration: none;
+}
+#cVoption:visited {
+    color: black;
+    text-decoration: none;
+}
 
 
 .body {
