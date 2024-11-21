@@ -12,6 +12,14 @@
     font-family: Jupiter-Regular;
 }
 
+#HomeOption {
+    padding-left: 50px;
+}
+
+#cVoption {
+    transform: translate(20px, 0px);
+}
+
 #WIPCont {
     font-size: x-large;
     font-family: monospace;
