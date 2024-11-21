@@ -33,14 +33,7 @@
     background-color: burlywood;
 }
 
-
-
-
-
-
-
-
-#SiteFooter {
+.footer {
     background-color: dimgrey;
     box-shadow: 0px -7px 23px 0px rgba(0,0,0,0.34);
 }
