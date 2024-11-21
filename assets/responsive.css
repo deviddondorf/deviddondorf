@@ -1,6 +1,6 @@
 @font-face {
     font-family: Jupiter-Regular;
-    src: url(../assets/Font/JupiteroidRegular-8Oeg0.ttf);
+    src: url("../assets/Font/JupiteroidRegular-8Oeg0.ttf");
 }
 
 
@@ -19,7 +19,7 @@
 }
 
 #IntroBox {
-    background-image: url(../assets/Img/image.png);
+    background-image: url("../assets/Img/image.png");
     background-position: center;
     background-size: cover;
     align-self: center;
