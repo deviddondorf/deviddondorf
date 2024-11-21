@@ -19,6 +19,7 @@
 }
 
 #IntroBox {
+    padding-top: 25px;
     background-image: url("../assets/Img/image.png");
     background-position: center;
     background-size: cover;
