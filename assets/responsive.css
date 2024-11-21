@@ -13,6 +13,30 @@
     font-family: Jupiter-Regular;
 }
 
+
+#HomeOption {
+    padding-left: 50px;
+}
+#HomeOption:link {
+    color: black;
+    text-decoration: none;
+}
+#HomeOption:hover {
+    color: darkgrey;
+    text-decoration: none;
+}
+#visited {
+    color: black;
+    text-decoration: none;
+}
+
+#cVoption {
+    padding-left: 75px;
+    transform: translate(200px, 0px);
+}
+
+
+
 .body {
     padding-top: 25px;
     padding-bottom: 25px;
@@ -29,16 +53,6 @@
     text-align: center;
 
 }
-
-#HomeOption {
-    padding-left: 50px;
-}
-
-#cVoption {
-    padding-left: 75px;
-    transform: translate(200px, 0px);
-}
-
 #WIPCont {
     font-size: x-large;
     font-family: monospace;
