@@ -15,12 +15,15 @@
     font-family: Jupiter-Regular;
 }
 
+#topbarbtns {
+    margin-bottom: 5px;
+}
 #HomeBtnContainer {
-    transform: translate(50px, 20px);
+    transform: translate(50px, 0px);
     
 }
 #CVBtnContainer {
-    transform: translate(25px, 0px);
+    transform: translate(75px, 0px);
 }
 
 #HomeBtn {
