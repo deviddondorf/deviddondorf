@@ -48,7 +48,7 @@
     font-size: xx-large;
     border: none;
     border-radius: 4px;
-    background-color: rgb(210, 243, 24);
+    background-color: rgb(210, 243, 244);
     text-align: center;
     background-position: center;
     text-decoration: none;
@@ -58,16 +58,39 @@
     padding-bottom: 25px;
 }
 
-#IntroBox {
-    padding-top: 35px;
+#Introslideshow {
+    position: relative;
     background-image: url("../assets/Img/image.png");
-    background-position: center;
     background-size: cover;
-    align-content: center;
-    font-size: large;
-    font-family: Jupiter-Regular;
+    background-position: center;
     text-align: center;
+}
+#introImg {
+    size: cover;
+    filter: blur(8px);
+    filter: saturate(30%);
+    filter: brightness(40%);
+    box-shadow: 0px 0px 83px 11px #000000;
+}
+#slideshowcaption {
+    opacity: 100%;
+    position: absolute;
+    left: 650px;
+    bottom: 75px;
+    font-family: Jupiter-Regular;
+    font-size: 55px;
+    color: ivory;
+     
+}
 
+#slideshowcaptiondesc {
+    position: absolute;
+    opacity: 100%;
+    left: 550px;
+    bottom: 70px;
+    font-family: Jupiter-Regular;
+    font-size: 35px;
+    color: ivory;
 }
 #WIPCont {
     font-size: x-large;
