@@ -11,12 +11,17 @@
     box-shadow: 0px 7px 14px 0px rgba(0,0,0,0.38);
     font-size: xx-large;
     margin-bottom: 20px;
+    margin-top: 20px;
     font-family: Jupiter-Regular;
 }
 
 #HomeBtnContainer {
     transform: translate(50px, 0px);
 }
+#CVBtnContainer {
+    transform: translate(25px, 0px);
+}
+
 #HomeBtn {
     border: none;
     border-radius: 4px;
@@ -25,6 +30,13 @@
     background-position: center;    
 }
 
+#CVBtn {
+    border: none;
+    border-radius: 4px;
+    background-color: cadetblue;
+    text-align: center;
+    background-position: center;    
+}
 .body {
     padding-bottom: 25px;
 }
