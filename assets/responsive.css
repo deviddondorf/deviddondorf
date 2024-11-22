@@ -27,6 +27,8 @@
 }
 
 #HomeBtn {
+    font-family: Jupiter-Regular;
+    font-size: xx-large;
     border: none;
     border-radius: 4px;
     background-color: cadetblue;
