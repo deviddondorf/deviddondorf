@@ -116,27 +116,28 @@
 
 
 
-#introImg1 {
+/*#introImg1 {
     size: cover;
     filter: blur(8px);
     filter: saturate(30%);
     filter: brightness(40%);
-    /*box-shadow: 0px 0px 83px 11px #000000;*/
+    /*box-shadow: 0px 0px 83px 11px #000000;
 }
 #introImg2 {
     size: cover;
     filter: blur(8px);
     filter: saturate(30%);
     filter: brightness(80%);
-    /*box-shadow: 0px 0px 83px 11px #000000;*/
+    box-shadow: 0px 0px 83px 11px #000000;
 }
 #introImg1 {
     size: cover;
     filter: blur(8px);
     filter: saturate(30%);
     filter: brightness(1%);
-    /*box-shadow: 0px 0px 83px 11px #000000;*/
+    box-shadow: 0px 0px 83px 11px #000000;
 }
+*/
 
 .GridContainer {
     padding: 50px;
