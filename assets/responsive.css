@@ -59,7 +59,7 @@
     color: #110d0b;
     padding-left: 10px;
     padding-right: 10px;
-    padding-top: 10px;
+    padding-top: 11px;
     padding-bottom: 10px;
 }
 
@@ -86,7 +86,10 @@
     background-position: center;
     text-decoration: none;
     color: #110d0b;
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 11px;
+    padding-bottom: 10px;
 }
 .body {
     padding-bottom: 25px;
