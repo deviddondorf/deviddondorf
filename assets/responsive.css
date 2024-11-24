@@ -3,97 +3,52 @@
     src: url("../assets/Font/JupiteroidRegular-8Oeg0.ttf");
 }
 
-#body {
-    background-color: #FAF7F0;
-}
-
-
-#TopNavBar {
+nav {
     background-color: #D8D2C2;
-    background-size: 125px;
     box-shadow: 0px 7px 14px 0px rgba(0,0,0,0.38);
-    font-size: xx-large;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    font-family: Jupiter-Regular;
     border-radius: 8px;
-}
+    margin-bottom: 20px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
 
-#topbarbtns {
+}
+#navbar {
+    height: 100%;
     width: 100%;
+    max-width: 2000px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+nav a {
+    height: 100%;
+    font-family: Jupiter-Regular;
+    font-size: xx-large;
+    border: none;
+    border-radius: 4px;
+    background-color: #D8D2C2;
+    text-decoration: none;
+    color: #110d0b;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
     display: flex;
     align-items: center;
-    padding-bottom: 10px;
-    padding-top: 10px;
 }
-#HomeBtnContainer {
-    transform: translate(50px, 0px);
+nav a:hover {
+    background-color: #e2ded1;
     
-}
-#CVBtnContainer {
-    transform: translate(75px, 0px);
-}
-
-#HomeBtn {
-    font-family: Jupiter-Regular;
-    font-size: xx-large;
-    border: none;
-    border-radius: 4px;
-    background-color: #D8D2C2;
-    text-align: center;
-    background-position: center;    
-    text-decoration: none;
-    color: #110d0b;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-#HomeBtn:hover {
-    font-family: Jupiter-Regular;
-    font-size: xx-large;
-    border: none;
-    border-radius: 4px;
-    background-color: #e2ded1;
-    text-align: center;
-    background-position: center;    
-    text-decoration: none;
-    color: #110d0b;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 11px;
-    padding-bottom: 10px;
-}
-
-#CVBtn {
-    font-family: Jupiter-Regular;
-    font-size: xx-large;
-    border: none;
-    border-radius: 4px;
-    background-color: #D8D2C2;
-    text-align: center;
-    background-position: center;
-    text-decoration: none;
-    color: #110d0b;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-#CVBtn:hover {
-    font-family: Jupiter-Regular;
-    font-size: xx-large;
-    border: none;
-    border-radius: 4px;
-    background-color: #e2ded1;
-    text-align: center;
-    background-position: center;
-    text-decoration: none;
-    color: #110d0b;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 11px;
-    padding-bottom: 10px;
+    
 }
 .body {
     padding-bottom: 25px;
     background-color: #f7f4f3;
+}
+
+#BodyCenter {
+    max-width: 2000px;
 }
 
 #Introslideshow {
@@ -115,32 +70,6 @@
     from {opacity: 4;}
     to {opacity: 1;}
 }
-
-
-
-
-/*#introImg1 {
-    size: cover;
-    filter: blur(8px);
-    filter: saturate(30%);
-    filter: brightness(40%);
-    /*box-shadow: 0px 0px 83px 11px #000000;
-}
-#introImg2 {
-    size: cover;
-    filter: blur(8px);
-    filter: saturate(30%);
-    filter: brightness(80%);
-    box-shadow: 0px 0px 83px 11px #000000;
-}
-#introImg1 {
-    size: cover;
-    filter: blur(8px);
-    filter: saturate(30%);
-    filter: brightness(1%);
-    box-shadow: 0px 0px 83px 11px #000000;
-}
-*/
 
 .GridContainer {
     align-items: center;
