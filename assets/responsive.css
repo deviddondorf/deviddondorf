@@ -44,6 +44,7 @@ nav a:hover {
     
 }
 .body {
+    width: 100%;
     display: flex;
     padding-bottom: 25px;
     background-color: #f7f4f3;
