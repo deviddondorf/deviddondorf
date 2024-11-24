@@ -44,8 +44,10 @@ nav a:hover {
     
 }
 .body {
+    display: flex;
     padding-bottom: 25px;
     background-color: #f7f4f3;
+    justify-content: center;
 }
 
 #BodyCenter {
