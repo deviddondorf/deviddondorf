@@ -140,6 +140,9 @@
 */
 
 .GridContainer {
+    align-items: center;
+    justify-items: center;
+    background-position: center;
     padding: 50px;
     display: grid;
     grid: 
