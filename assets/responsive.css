@@ -81,6 +81,11 @@
     /*box-shadow: 0px 0px 83px 11px #000000;*/
 }
 
+.GridContainer {
+    display: grid;
+    gap: 20px;
+}
+
 #WIPCont {
     font-size: x-large;
     font-family: monospace;
