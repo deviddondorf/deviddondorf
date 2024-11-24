@@ -3,8 +3,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> Devid Dondorf | Portfolio</title>
-        <link rel="stylesheet" type="text/css" href="assets/responsive.css">
-        
+        <link rel="stylesheet" type="text/css" href="assets/responsive.css"/>
+                
     </head>
     <body id="body">
         <nav>
@@ -20,16 +20,24 @@
             </div>
         </nav>
         <div class="slideshow" id="introslideshow">
-            <div id="img1">
-                <img id="introImg" src="assets/Img/image.png"/>
+            <div class="slide fade">
+                <img id="introImg1" src="/assets/Img/image.png" />
+            </div>
+            <div class="slide fade">
+                <img id="introImg2" src="/assets/Img/image.png" />
+            </div>
+            <div class="slide fade">
+                <img id="introImg3" src="/assets/Img/image.png" />
             </div>
         </div>
+        <script src="slideshow.js" type="text/javascript"></script>
+        
         <div id="GridContent">
             <div class="GridContainer">
-                <div class="grid-item"><img src="./assets/Img/image.png"/></div>
-                <div class="grid-item"><img src="./assets/Img/image.png"/></div>
-                <div class="grid-item"><img src="./assets/Img/image.png"/></div>
-                <div class="grid-item"><img src="./assets/Img/image.png"/></div>
+                <div class="grid-item" id="GItem1"><img src="./assets/Img/image.png"/></div>
+                <div class="grid-item" id="GItem2"><img src="./assets/Img/image.png"/></div>
+                <div class="grid-item" id="GItem3"><img src="./assets/Img/image.png"/></div>
+                <div class="grid-item" id="GItem4"><img src="./assets/Img/image.png"/></div>
             </div>
         </div>
 
