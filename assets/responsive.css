@@ -89,6 +89,11 @@ nav a:hover {
         'c c d d';
     row-gap: 75px;
 }
+#GIMG {
+    width: 500px;
+    height: 500px;
+    block-size: auto;
+}
 #GItem1 {
     grid-area: a;
 
