@@ -80,6 +80,7 @@ nav a:hover {
 
 .GridContainer {
     align-items: center;
+    font-family: Jupiter-Regular;
     justify-items: center;
     background-position: center;
     padding: 50px;
@@ -111,6 +112,20 @@ nav a:hover {
 
 }
 
+#ProjectTitle {
+    text-decoration: none;
+    font-size: x-large;
+    text-decoration-line: none;
+    color: black;
+}
+
+
+#ProjectDesc {
+    text-decoration: none;
+    font-size: large;
+    text-decoration-line: none;
+    color: black;
+}
 
 
 #WIPCont {
