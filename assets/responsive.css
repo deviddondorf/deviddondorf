@@ -66,6 +66,12 @@ nav a:hover {
     background-color: #eee9db;
     border-radius: 3px;
 }
+
+#SF {
+    size-adjust: 100%;
+    background-color: #eee9db;
+}
+
 .slide {
     display: none;
 }
