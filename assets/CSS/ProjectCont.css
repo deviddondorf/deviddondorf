@@ -9,13 +9,12 @@
     background-image: url("../Img/Darker.png");
     background-color: blueviolet;
     background-size: 125%;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
     justify-content: center;
     text-align: center;
-    padding: 250px;
+    padding: 200px;
     font-family: Jupiter-Regular;
     font-size: xx-large;
-    backdrop-filter: brightness(35%);
     color: #e2ded1;
 
 }
@@ -42,8 +41,25 @@ pre {
 /* /// Grid Sections /// */
 
 #S1 {
-    background-color: rgb(184, 94, 94);
+    background-color: #e2ded1;
+    border-radius: 50px;
+    box-shadow: 0px 12px 23px 8px rgba(0,0,0,0.59);
+    margin-bottom: 25px;
 }
+
+#S2 {
+    border-radius: 50px;
+    box-shadow: 0px 12px 23px 8px rgba(0,0,0,0.59);
+    margin-bottom: 25px;
+}
+
+#S3 {
+    background-color: #e2ded1;
+    border-radius: 50px;
+    box-shadow: 0px 12px 23px 8px rgba(0,0,0,0.59);
+    margin-bottom: 25px;
+}
+
 
         /* Section 1 */
 #Section1A {
@@ -63,3 +79,14 @@ pre {
 #Section2B {
     grid-area: b;
 }
+
+
+        /* Setion 3 */
+#Section3A {
+    grid-area: a;
+}
+
+#Section3B {
+    grid-area: b;
+}
+
