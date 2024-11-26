@@ -5,6 +5,13 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+pre {
+    font-family: Jupiter-Regular;
+    font-size: larger;
+}
+
+
+/* Grid Parent */
 .ProjectContent {
     justify-content: center;
     align-items: center;
@@ -12,7 +19,33 @@
 .GridContainer {
     justify-content: center;
     align-items: center;
-    padding: 50px;
-    gap: 75px;
+    
     column-gap: 100px;
+}
+
+
+
+/* /// Grid Sections /// */
+
+#S1 {
+    background-color: rgb(0, 0, 0);
+}
+
+        /* Section 1 */
+#Section1A {
+    grid-area: a;
+    
+}
+
+#Section1B {
+    grid-area: b;
+}
+
+        /* Setion 2 */
+#Section2A {
+    grid-area: a;
+}
+
+#Section2B {
+    grid-area: b;
 }
