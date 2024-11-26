@@ -6,7 +6,7 @@
 }
 #ProjectHeadImg {
     width: 100%;
-    background-image: url("../Img/image.png");
+    background-image: url("../Img/Darker.png");
     background-color: blueviolet;
     background-size: 125%;
     margin-bottom: 10px;
@@ -16,7 +16,7 @@
     font-family: Jupiter-Regular;
     font-size: xx-large;
     backdrop-filter: brightness(35%);
-    color: rgb(0, 252, 13);
+    color: #e2ded1;
 
 }
 
