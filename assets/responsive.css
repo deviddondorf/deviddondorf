@@ -95,21 +95,32 @@ nav a:hover {
     width: 500px;
     height: 500px;
     block-size: auto;
+    border-radius: 30px;
 }
 #GItem1 {
     text-decoration: none;
     grid-area: a;
 
 }
+#GItem1:hover {
+    transform:scale(1.05);
+        
+}
 #GItem2 {
     text-decoration: none;
     grid-area: b;
 
 }
+#GItem2:hover {
+    transform:scale(1.05)
+}
 #GItem3 {
     text-decoration: none;
     grid-area: c;
 
+}
+#GItem3:hover {
+    transform:scale(1.05)
 }
 #GItem4 {
     text-decoration: none;
@@ -117,6 +128,9 @@ nav a:hover {
 
 }
 
+#GItem4:hover {
+    transform:scale(1.05)
+}
 #ProjectTitle {
     text-decoration: none;
     font-size: x-large;
@@ -180,4 +194,19 @@ footer {
     font-size: larger;
     text-decoration: none;
     grid-area: b;
+}
+
+
+
+
+
+
+
+#ProjS1 {
+    border-color: #e2ded1;
+    border-style: solid;
+    border-radius: 50px 50px;
+    border-width: 4px;
+    box-shadow: 0px 12px 23px 8px rgba(0,0,0,0.59);
+    padding: 30px;
 }
