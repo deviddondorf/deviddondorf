@@ -4,6 +4,21 @@
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
 }
+#ProjectHeadImg {
+    width: 100%;
+    background-image: url("../Img/image.png");
+    background-color: blueviolet;
+    background-size: 125%;
+    margin-bottom: 10px;
+    justify-content: center;
+    text-align: center;
+    padding: 250px;
+    font-family: Jupiter-Regular;
+    font-size: xx-large;
+    backdrop-filter: brightness(35%);
+    color: rgb(0, 252, 13);
+
+}
 
 pre {
     font-family: Jupiter-Regular;
@@ -19,7 +34,6 @@ pre {
 .GridContainer {
     justify-content: center;
     align-items: center;
-    
     column-gap: 100px;
 }
 
@@ -28,7 +42,7 @@ pre {
 /* /// Grid Sections /// */
 
 #S1 {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(184, 94, 94);
 }
 
         /* Section 1 */
