@@ -1,0 +1,18 @@
+#ProjectHeadCont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ProjectContent {
+    justify-content: center;
+    align-items: center;
+}
+.GridContainer {
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 75px;
+    column-gap: 100px;
+}
