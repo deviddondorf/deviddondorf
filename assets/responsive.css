@@ -79,6 +79,7 @@ nav a:hover {
 }
 
 .GridContainer {
+    text-decoration: none;
     align-items: center;
     font-family: Jupiter-Regular;
     justify-items: center;
@@ -96,18 +97,22 @@ nav a:hover {
     block-size: auto;
 }
 #GItem1 {
+    text-decoration: none;
     grid-area: a;
 
 }
 #GItem2 {
+    text-decoration: none;
     grid-area: b;
 
 }
 #GItem3 {
+    text-decoration: none;
     grid-area: c;
 
 }
 #GItem4 {
+    text-decoration: none;
     grid-area: d;
 
 }
