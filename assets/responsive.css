@@ -3,6 +3,10 @@
     src: url("../assets/Font/JupiteroidRegular-8Oeg0.ttf");
 }
 
+a {
+    text-decoration: none;
+}
+
 nav {
     background-color: #D8D2C2;
     box-shadow: 0px 7px 14px 0px rgba(0,0,0,0.38);
@@ -66,6 +70,12 @@ nav a:hover {
     background-color: #eee9db;
     border-radius: 3px;
 }
+
+#SF {
+    size-adjust: 100%;
+    background-color: #eee9db;
+}
+
 .slide {
     display: none;
 }
@@ -95,21 +105,32 @@ nav a:hover {
     width: 500px;
     height: 500px;
     block-size: auto;
+    border-radius: 30px;
 }
 #GItem1 {
     text-decoration: none;
     grid-area: a;
 
 }
+#GItem1:hover {
+    transform:scale(1.05);
+        
+}
 #GItem2 {
     text-decoration: none;
     grid-area: b;
 
 }
+#GItem2:hover {
+    transform:scale(1.05)
+}
 #GItem3 {
     text-decoration: none;
     grid-area: c;
 
+}
+#GItem3:hover {
+    transform:scale(1.05)
 }
 #GItem4 {
     text-decoration: none;
@@ -117,6 +138,9 @@ nav a:hover {
 
 }
 
+#GItem4:hover {
+    transform:scale(1.05)
+}
 #ProjectTitle {
     text-decoration: none;
     font-size: x-large;
@@ -148,36 +172,58 @@ footer {
     background-color: rgb(177, 177, 177);
     justify-content: center;
     box-shadow: 0px -7px 23px 0px rgba(0,0,0,0.34);
+    
 }
 #SiteFooter {
     width: 100%;
     max-width: 2000px;
     text-decoration: none;
+    font-size: medium;
 }
 
 
 .GridFContainer {
     text-decoration: none;
-    align-items: center;
+    align-items: center;    
     font-family: Jupiter-Regular;
     justify-items: left;
     background-position: center;
-    padding: 10px;
+    padding: 20px;
     display: grid;
     grid: 
         'a a b b'
         'c c d d';
     row-gap: 5px;
-    column-gap: 500px;
+    column-gap: 5px;
+    font-size: medium;
 }
 
 #GFItem1 {
-    font-size: larger;
-    grid-area: a;
+        grid-area: a;
     text-decoration: none;
 }
 #GFItem2 {
     font-size: larger;
     text-decoration: none;
     grid-area: b;
+}
+
+
+
+
+
+
+
+#ProjS1 {
+    border-color: #e2ded1;
+    border-style: solid;
+    border-radius: 50px 50px;
+    border-width: 4px;
+    box-shadow: 0px 12px 23px 8px rgba(0,0,0,0.59);
+    padding: 30px;
+}
+
+footer pre{
+   font-size: medium;
+    
 }
