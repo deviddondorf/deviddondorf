@@ -1,0 +1,92 @@
+#ProjectHeadCont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#ProjectCasinoHeadImg {
+    width: 100%;
+    background-image: url("../Img/Projects/Casino/CasinoHeaderImg.png");
+    background-color: blueviolet;
+    background-size: 125%;
+    margin-bottom: 50px;
+    justify-content: center;
+    text-align: center;
+    padding: 200px;
+    font-family: Jupiter-Regular;
+    font-size: xx-large;
+    color: #e2ded1;
+
+}
+
+pre {
+    font-family: Jupiter-Regular;
+    font-size: larger;
+}
+
+
+/* Grid Parent */
+.ProjectContent {
+    justify-content: center;
+    align-items: center;
+}
+.GridContainer {
+    justify-content: center;
+    align-items: center;
+    column-gap: 100px;
+}
+
+
+
+/* /// Grid Sections /// */
+
+#S1 {
+    background-color: #e2ded1;
+    border-radius: 50px;
+    box-shadow: 0px 12px 23px 8px rgba(0,0,0,0.59);
+    margin-bottom: 25px;
+}
+
+#S2 {
+    border-radius: 50px;
+    box-shadow: 0px 12px 23px 8px rgba(0,0,0,0.59);
+    margin-bottom: 25px;
+}
+
+#S3 {
+    background-color: #e2ded1;
+    border-radius: 50px;
+    box-shadow: 0px 12px 23px 8px rgba(0,0,0,0.59);
+    margin-bottom: 25px;
+}
+
+
+        /* Section 1 */
+#Section1A {
+    grid-area: a;
+    
+}
+
+#Section1B {
+    grid-area: b;
+}
+
+        /* Setion 2 */
+#Section2A {
+    grid-area: a;
+}
+
+#Section2B {
+    grid-area: b;
+}
+
+
+        /* Setion 3 */
+#Section3A {
+    grid-area: a;
+}
+
+#Section3B {
+    grid-area: b;
+}
+
