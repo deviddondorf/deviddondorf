@@ -128,57 +128,38 @@ nav a:hover {
     height: 460px;
     block-size: auto;
     border-radius: 30px;
-    overflow: hidden;
     size: 500px, 237px;
 }
-#GItem1 {
+.grid-item {
     background-clip:content-box;
     color: #FAF0E6;
     background-color: #5C5470;
     text-decoration: none;
-    grid-area: a;
-
+    border-radius: 50px;
+    border: 4px solid #e2ded1;
+    box-shadow: 0px 12px 23px 8px rgba(0,0,0,0.59);
 }
-#GItem1:hover {
+.grid-item:hover {
     background-clip:border-box;
     background-color: #B9B4C7;
     transform:scale(1.05);
-        
+}
+#GItem1 {
+    grid-area: a;
+
 }
 #GItem2 {
-    overflow: hidden;
-    background-color: #5C5470;
-    color: #FAF0E6;
-    text-decoration: none;
     grid-area: b;
 
 }
-#GItem2:hover {
-    background-color: #B9B4C7;
-    transform:scale(1.05)
-}
+
 #GItem3 {
-    background-color: #5C5470;
-    color: #FAF0E6;
-    text-decoration: none;
     grid-area: c;
 
 }
-#GItem3:hover {
-    background-color: #B9B4C7;
-    transform:scale(1.05)
-}
 #GItem4 {
-    background-color: #5C5470;
-    color: #FAF0E6;
-    text-decoration: none;
     grid-area: d;
 
-}
-
-#GItem4:hover {
-    background-color: #B9B4C7;
-    transform:scale(1.05)
 }
 #ProjectTitle {
     text-decoration: none;
@@ -186,13 +167,14 @@ nav a:hover {
     text-decoration-line: none;
     color: #FAF0E6;
 }
-
-
 #ProjectDesc {
     text-decoration: none;
     font-size: large;
     text-decoration-line: none;
     color: #FAF0E6;
+}
+.ProjS1 {
+    margin: 30px;
 }
 
 
@@ -278,4 +260,8 @@ footer pre{
     text-align: center;
     font-family: Jupiter-Regular;
     padding-top: 75px;
+}
+
+a {
+    color: #FAF0E6;
 }
