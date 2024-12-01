@@ -184,10 +184,16 @@ nav a:hover {
 
 #WIPCont {
     font-size: x-large;
+    color: #352F44;
     font-family: monospace;
-    background-color: rgb(255, 240, 221);
+    background-color: rgb(255, 255, 255);
     padding-left: 10px;
+    border-color: red;
+    border-width: 4px;
+    border-style: dashed;
     padding-bottom: 10px;
+    justify-content: center;
+    align-content: center;
 }
 
 footer {
