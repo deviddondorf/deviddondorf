@@ -9,7 +9,6 @@ a {
 
 html {
     background-color: #352F44;
-    color: FAF0E6;
 }
 
 nav {
@@ -96,7 +95,6 @@ nav a:hover {
 .GridContainer {
     
     overflow: hidden;
-    color: #FAF0E6;
     text-decoration: none;
     align-items: center;
     font-family: Jupiter-Regular;
@@ -115,7 +113,6 @@ nav a:hover {
 #GIMG {
     
     overflow: hidden;
-    color: #FAF0E6;
     width: 500px;
     height: 500px;
     block-size: auto;
