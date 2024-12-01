@@ -7,8 +7,13 @@ a {
     text-decoration: none;
 }
 
+html {
+    background-color: #352F44;
+    color: FAF0E6;
+}
+
 nav {
-    background-color: #D8D2C2;
+    background-color: #5C5470;
     box-shadow: 0px 7px 14px 0px rgba(0,0,0,0.38);
     border-radius: 8px;
     margin-bottom: 20px;
@@ -18,7 +23,7 @@ nav {
 
 }
 #navbar {
-    background-color: #D8D2C2;
+    background-color: #5C5470;
     height: 100%;
     width: 100%;
     max-width: 2000px;
@@ -33,9 +38,9 @@ nav a {
     font-size: xx-large;
     border: none;
     border-radius: 4px;
-    background-color: #D8D2C2;
+    background-color: #5C5470;
     text-decoration: none;
-    color: #110d0b;
+    color: #FAF0E6;
     text-align: center;
     padding-left: 10px;
     padding-right: 10px;
@@ -43,7 +48,7 @@ nav a {
     align-items: center;
 }
 nav a:hover {
-    background-color: #e2ded1;
+    background-color: #B9B4C7;
     
     
 }
@@ -89,6 +94,7 @@ nav a:hover {
 }
 
 .GridContainer {
+    color: #FAF0E6;
     text-decoration: none;
     align-items: center;
     font-family: Jupiter-Regular;
@@ -105,50 +111,63 @@ nav a:hover {
     row-gap: 75px;
 }
 #GIMG {
+    color: #FAF0E6;
     width: 500px;
     height: 500px;
     block-size: auto;
     border-radius: 30px;
 }
 #GItem1 {
+    color: #FAF0E6;
+    background-color: #5C5470;
     text-decoration: none;
     grid-area: a;
 
 }
 #GItem1:hover {
+    background-color: #B9B4C7;
     transform:scale(1.05);
         
 }
 #GItem2 {
+    background-color: #5C5470;
+    color: #FAF0E6;
     text-decoration: none;
     grid-area: b;
 
 }
 #GItem2:hover {
+    background-color: #B9B4C7;
     transform:scale(1.05)
 }
 #GItem3 {
+    background-color: #5C5470;
+    color: #FAF0E6;
     text-decoration: none;
     grid-area: c;
 
 }
 #GItem3:hover {
+    background-color: #B9B4C7;
     transform:scale(1.05)
 }
 #GItem4 {
+    background-color: #5C5470;
+    color: #FAF0E6;
     text-decoration: none;
     grid-area: d;
 
 }
 
 #GItem4:hover {
+    background-color: #B9B4C7;
     transform:scale(1.05)
 }
 #ProjectTitle {
     text-decoration: none;
     font-size: x-large;
     text-decoration-line: none;
-    color: black;
+    color: #FAF0E6;
 }
 
 
@@ -156,7 +175,7 @@ nav a:hover {
     text-decoration: none;
     font-size: large;
     text-decoration-line: none;
-    color: black;
+    color: #FAF0E6;
 }
 
 
@@ -170,9 +189,10 @@ nav a:hover {
 
 footer {
     width: 100%;
+    color: #FAF0E6;
     text-decoration: none;
     display: flex;
-    background-color: rgb(177, 177, 177);
+    background-color: #5C5470;
     justify-content: center;
     box-shadow: 0px -7px 23px 0px rgba(0,0,0,0.34);
     

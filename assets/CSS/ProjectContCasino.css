@@ -4,6 +4,11 @@
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+html {
+    background-color: #352F44;
+}
+
 #ProjectCasinoHeadImg {
     width: 100%;
     background-image: url("../Img/Projects/Casino/CasinoHeaderImg.png");
@@ -41,20 +46,24 @@ pre {
 /* /// Grid Sections /// */
 
 #S1 {
-    background-color: #e2ded1;
+    color: #53514f;
+    background-color: #B9B4C7;
     border-radius: 50px;
     box-shadow: 0px 12px 23px 8px rgba(0,0,0,0.59);
     margin-bottom: 25px;
 }
 
 #S2 {
+    color: #FAF0E6;
+    background-color: #5C5470;
     border-radius: 50px;
     box-shadow: 0px 12px 23px 8px rgba(0,0,0,0.59);
     margin-bottom: 25px;
 }
 
 #S3 {
-    background-color: #e2ded1;
+    color: #53514f;
+    background-color: #B9B4C7;
     border-radius: 50px;
     box-shadow: 0px 12px 23px 8px rgba(0,0,0,0.59);
     margin-bottom: 25px;
