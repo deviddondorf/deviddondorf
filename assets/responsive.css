@@ -68,20 +68,32 @@ nav a:hover {
 
 #Introslideshow {
     padding: 25px;
-    max-width: fit-content;
-    position: relative;
-    margin: auto;
-    background-color: #eee9db;
-    border-radius: 3px;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    justify-content: center;
+    
 }
 
 #SF {
     size-adjust: 100%;
-    background-color: #eee9db;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    justify-content: center;
+    border-radius: 8px;
 }
+    
+
 
 .slide {
     display: none;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    justify-content: center;
+    border-radius: 8px;
 }
 .fade {
     animation-name: fade;
