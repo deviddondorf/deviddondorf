@@ -111,12 +111,12 @@ nav a:hover {
     row-gap: 75px;
 }
 #GIMG {
-    
-    overflow: hidden;
-    width: 500px;
-    height: 500px;
+    width: 520px;
+    height: 460px;
     block-size: auto;
     border-radius: 30px;
+    overflow: hidden;
+    size: 500px, 237px;
 }
 #GItem1 {
     background-clip:content-box;
