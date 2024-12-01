@@ -94,6 +94,7 @@ nav a:hover {
 }
 
 .GridContainer {
+    overflow: hidden;
     color: #FAF0E6;
     text-decoration: none;
     align-items: center;
@@ -111,6 +112,7 @@ nav a:hover {
     row-gap: 75px;
 }
 #GIMG {
+    overflow: hidden;
     color: #FAF0E6;
     width: 500px;
     height: 500px;
