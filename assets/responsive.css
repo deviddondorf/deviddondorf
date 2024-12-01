@@ -94,6 +94,7 @@ nav a:hover {
 }
 
 .GridContainer {
+    
     overflow: hidden;
     color: #FAF0E6;
     text-decoration: none;
@@ -112,6 +113,7 @@ nav a:hover {
     row-gap: 75px;
 }
 #GIMG {
+    
     overflow: hidden;
     color: #FAF0E6;
     width: 500px;
@@ -120,6 +122,7 @@ nav a:hover {
     border-radius: 30px;
 }
 #GItem1 {
+    background-clip:content-box;
     color: #FAF0E6;
     background-color: #5C5470;
     text-decoration: none;
@@ -127,6 +130,7 @@ nav a:hover {
 
 }
 #GItem1:hover {
+    background-clip:border-box;
     background-color: #B9B4C7;
     transform:scale(1.05);
         
