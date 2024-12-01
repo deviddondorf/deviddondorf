@@ -130,6 +130,7 @@ nav a:hover {
         
 }
 #GItem2 {
+    overlay: hidden;
     background-color: #5C5470;
     color: #FAF0E6;
     text-decoration: none;
